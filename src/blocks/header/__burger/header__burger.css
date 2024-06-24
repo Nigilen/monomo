@@ -1,0 +1,13 @@
+.burger {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  display: none;
+}
+
+
+@media (width < 768px) {
+  .burger {
+    display: block;
+  }
+}
