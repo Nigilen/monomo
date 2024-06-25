@@ -8,8 +8,9 @@
     linear-gradient(-90deg, #202020, #080808);
   max-width: clamp(21.0625rem, -0.0423rem + 90.0469vw, 81rem);
   border-radius: 15px;
-  background-position: center;
   background-size: 100%;
+  background-position: 50%;
+  background-repeat: no-repeat;
   position: relative;
   top: -111px;
 }
@@ -96,8 +97,4 @@
   .facts-list {
     grid-template-columns: auto;
   }
-}
-
-@media (width < 375px) {
-
 }
