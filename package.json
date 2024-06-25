@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "project Monomo (Nigilen)",
   "main": "index.js",
+  "homepage": ".",
   "scripts": {
     "build": "webpack --mode production",
     "dev": "webpack serve",
