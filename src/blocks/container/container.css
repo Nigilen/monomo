@@ -1,11 +1,4 @@
 .container {
-  padding-inline: 72px;
+  padding-inline: clamp(0.75rem, -0.5704rem + 5.6338vw, 4.5rem);
   margin: 0 auto;
-}
-
-
-@media (width < 768px) {
-  .container {
-    padding-inline: 12px;
-  }
 }

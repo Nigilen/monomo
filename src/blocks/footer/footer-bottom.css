@@ -1,0 +1,24 @@
+.footer-bottom {
+  display: flex;
+  padding-block: 26px 23px;
+  border-block-start: 1px solid #83838333;
+}
+
+.footer-bottom p {
+  margin: 0 auto 0 0;
+}
+
+.footer-bottom a:first-of-type::after {
+  content: "|";
+  margin-inline: 14px;
+}
+
+@media (width < 765px) {
+  .footer-bottom p {
+    margin: 0 auto;
+  }
+  .footer-bottom {
+    flex-direction: column;
+    align-items: center;
+  }
+}

@@ -7,3 +7,7 @@
 @import url('../blocks/hero/hero.css');
 @import url('../blocks/facts/facts.css');
 @import url('../blocks/services/services.css');
+@import url('../blocks/portfolio/portfolio.css');
+
+@import url('../blocks/footer/footer.css');
+@import url('../blocks/subscribe/subscribe.css');

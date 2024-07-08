@@ -128,40 +128,118 @@
 
 
     </section>
-    <section class="portfolio container">
-      <h2 class="portfolio-subtitle"></h2>
-      <p class="portfolio-title"></p>
+    <!-- <section class="portfolio">
+      <div class="portfolio-header">
+        <h2 class="portfolio-subtitle">Latest Projects</h2>
+        <p class="portfolio-title">Portfolio to explore</p>
+      </div>
       <div class="slider">
-        <ul class="slider-track">
-          <li class="slide">
-            <div class="slide-content">
-              <h3 class="slide-title">Colorful Art Work</h3>
-              <a class="slide-link" href="#">See Details</a>
-            </div>
-          </li>
-          <li class="slide">
-            <div class="slide-content">
-              <h3 class="slide-title">Colorful Art Work</h3>
-              <a class="slide-link" href="#">See Details</a>
-            </div>
-          </li>
-          <li class="slide">
-            <div class="slide-content">
-              <h3 class="slide-title">Colorful Art Work</h3>
-              <a class="slide-link" href="#">See Details</a>
-            </div>
-          </li>
-        </ul>
+        <div class="slider-outer">
+          <ul class="slider-track">
+            <li class="slide">
+              <img src="<%=require('./images/portfolio-01.webp')%>" alt="">
+              <div class="slide-content">
+                <h3 class="slide-title">Colorful Art Work</h3>
+                <a class="slide-link" href="#">See Details</a>
+              </div>
+            </li>
+            <li class="slide">
+              <img src="<%=require('./images/portfolio-02.webp')%>" alt="">
+              <div class="slide-content">
+                <h3 class="slide-title">Colorful Art Work</h3>
+                <a class="slide-link" href="#">See Details</a>
+              </div>
+            </li>
+            <li class="slide">
+              <img src="<%=require('./images/portfolio-03.webp')%>" alt="">
+              <div class="slide-content">
+                <h3 class="slide-title">Colorful Art Work</h3>
+                <a class="slide-link" href="#">See Details</a>
+              </div>
+            </li>
+          </ul>
+        </div>
         <div class="slider-control-dots">
           <button class="control-dot control-dot--active"></button>
           <button class="control-dot"></button>
           <button class="control-dot"></button>
         </div>
       </div>
-    </section>
+    </section> -->
   </main>
-  <footer>
 
+  <footer class="footer container">
+    <dl class="footer-top">
+      <div class="footer-column">
+        <dt>
+          <a class="logo" href="#">
+            <img class="logo-img" src="<%=require('./images/logo.svg')%>" alt="">
+          </a>
+        </dt>
+        <dd>
+          <p class="footer-text">Welcome to arino sed ut perspiciae omunde omnis iste natus error sitort voluptatem accusantium.</p>
+          <ul class="footer-social">
+            <li>
+              <a href="#">
+                <img src="<%=require('./images/icon-facebook.svg')%>" alt="">
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="<%=require('./images/icon-instagram.svg')%>" alt="">
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="<%=require('./images/icon-linkedin.svg')%>" alt="">
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="<%=require('./images/icon-twitter.svg')%>" alt="">
+              </a>
+            </li>
+          </ul>
+        </dd>
+      </div>
+      <div class="footer-column">
+        <dt class="column-caption">Services</dt>
+        <dd><a href="#">UI/UX design</a></dd>
+        <dd><a href="#">WP development</a></dd>
+        <dd><a href="#">Digital marketing</a></dd>
+        <dd><a href="#">React development</a></dd>
+      </div>
+      <div class="footer-column">
+        <dt class="column-caption">Contact Us</dt>
+        <dd>
+          <address class="footer-contacts">
+            55/53 Jay Path Apt. 908
+            <a href="tel:+444547800112">+44 454 7800 112</a>
+            <a href="mailto:sbechtelar@example.net">sbechtelar@example.net</a>
+          </address>
+        </dd>
+      </div>
+      <div class="footer-column">
+        <dt class="column-caption">Subscribe</dt>
+        <dd>
+          <form class="footer__subscribe subscribe" action="#">
+            <label class="subscribe__label">
+              <input class="subscribe__input" type="email" placeholder="example@gmail.com"/>
+            </label>
+            <button class="subscribe__btn" type="submit">Send</button>
+          </form>
+          <p class="subscribe__description">At vero eos et accusamus et iusto odio as part dignissimos ducimus qui blandit.</p>
+        </dd>
+      </div>
+    </dl>
+    <div class="footer-bottom">
+      <p class="footer-copyright">Copyright © 2024 Laralink.</p>
+      <div class="footer-bottom-links">
+        <a class="footer-bottom-link" href="#">Terms of Use</a>
+        <a class="footer-bottom-link" href="#">Privacy policy</a>
+      </div>
+    </div>
   </footer>
+
 </body>
 </html>

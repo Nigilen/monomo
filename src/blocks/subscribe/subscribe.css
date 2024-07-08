@@ -1,0 +1,38 @@
+.subscribe {
+  display: flex;
+  position: relative;
+  align-items: center;
+}
+
+.subscribe__label {
+  flex-grow: 1;
+}
+
+.subscribe__input {
+  background-color: #000000;
+  border: none;
+  border-radius: 10px;
+  padding: 14px 15px 13px 15px;
+  width: 100%;
+}
+
+.subscribe__btn {
+  border-radius: 10px;
+  background-color: #FF6900;
+  color: #fefefe;
+  font-weight: 600;
+  font-size: 16px;
+  border: none;
+  padding: 9px 25px;
+  position: absolute;
+  cursor: pointer;
+  right: 4px;
+}
+
+.subscribe__description {
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+  max-width: 306px;
+}
